@@ -1,0 +1,59 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "cmd+alt+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+},
+{
+    "key": "cmd+alt+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+},
+{
+    "key": "cmd+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+},
+{
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+},
+{
+    "key": "ctrl+y",                
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus" 
+},
+{
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly" 
+},
+{
+    "key": "ctrl+y",
+    "command": "-redo",
+    "when": "textInputFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+d",
+    "command": "-editor.action.deleteLines",
+    "when": "editorTextFocus"
+},
+{
+    "key": "shift+alt+a",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+shift+7",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+shift+c",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus"
+},
+
+]
+

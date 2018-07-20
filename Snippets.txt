@@ -2,3 +2,8 @@ git config --global credential.helper wincred
 git remote add origin https://github.com/HorseBadorties/angular_tour_of_heroes.git
 git push origin master
 npm update
+
+Array.from(Array(100), (val, index) => index + 1).forEach(_ => new Runde());
+setInterval(() => io.emit('time', new Date().toTimeString()), 5000);
+
+www.robomongo.org  
